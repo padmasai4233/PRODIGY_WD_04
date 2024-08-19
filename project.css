@@ -1,0 +1,104 @@
+#project-sec
+{
+	width: 100%;
+	height: 100vh;
+	background-color: #E2BFD9;
+/*	background-color: #C8A1E0;*/
+}
+#project-info
+{
+	display: flex;
+	justify-content: center;
+	padding-top: 60px;
+}
+#project-head
+{
+	color: white;
+	font-family: serif;
+}
+#project-layout
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	padding-top: 40px;
+}
+#project-1,#project-2,#project-3
+{
+	width: 26%;
+	height: 350px;
+	background-color: whitesmoke;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px 3px gray;
+	transition: all 5s 0 ease-out;
+}
+#project-1:hover,#project-2:hover,#project-3:hover
+{
+	transform:translatey(-15px);
+}
+@media screen and (min-width:375px) and (max-width:900px)
+{
+	#project-sec
+	{
+		height: 180vh;
+	}
+	#project-layout
+	{
+		flex-direction: column;
+		padding-top: 30px;
+	}
+	#project-1,#project-2,#project-3
+	{
+		width: 60%;
+	}
+	#project-2
+	{
+		height: 370px;
+	}
+	#project-1:hover,#project-2:hover,#project-3:hover
+	{
+		transform:translatey(-15px);
+	}
+}
+#inside-1,#inside-2,#inside-3
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+#solarimg,#employeeimg,#hotelimg
+{
+	height: 180px;
+	width: 100%;
+/*	border-radius: 10px;*/
+/*	margin-left: 10%;*/
+/*	margin-top: 30px;*/
+	margin-bottom: 10px;
+}
+#head-1,#head-3,#head-2
+{
+	text-align: center;
+	font-family: serif;
+	font-size: x-large;
+}
+#head-1-1,#head-2-2,#head-3-3
+{
+	text-align: right;
+	margin-right: 5px;
+}
+#demo-head
+{
+	text-align: center;
+	margin-top: 20px;
+	padding-left: 10px;
+	background-color: aquamarine;
+	box-shadow: 1px 1px 5px 3px gray;
+
+}
+#link-1
+{
+	text-align: center;
+	text-decoration: none;
+	margin-top: 10px;
+}

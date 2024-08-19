@@ -1,0 +1,145 @@
+/**
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}*/
+#skill-sec
+{
+	width: 100%;
+	height: 100vh;
+	background-color: #E2DAD6;
+/*	background-color: #C8A1E0;*/
+}
+#skill-top
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 100px;
+	flex-direction: column;
+}
+#skill-name
+{
+	font-family: "Sofia", sans-serif;
+  	font-size: 30px;
+  	text-shadow: 3px 3px 3px #ababab;
+	padding-bottom: 10px;
+	color: #FC4100;
+	letter-spacing: 1px;
+}
+#skill-info
+{
+	color: #674188;
+	font-weight: bold;
+	padding: 5px;
+	font-size: large;
+}
+#skill-layout
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 40px;
+}
+#skill-grid
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 5vh auto;
+	width: 60%;
+	gap: 30px;
+}
+@media screen and (min-width:375px) and (max-width:767px)
+{
+	#skill-sec
+	{
+		width: 100%;
+	}
+	#skill-grid
+	{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 5vh;
+	}
+}
+#html-1,#css-2,#javascript-3,#java-4,#c-5,#python-6,#cadd-7,#mysql
+{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color: white;
+	border-radius: 2px;
+	padding-left: 20px;
+	height: 35px;
+}
+#html-1
+{
+	background-image: linear-gradient(to right,yellow 90%,white 10%);
+}
+#css-2
+{
+	background-image: linear-gradient(to right,red 75%,white 25%);
+}
+#javascript-3
+{
+	background-image: linear-gradient(to right,magenta 50%,white 50%);
+}
+#java-4
+{
+	background-image: linear-gradient(to right,blue 60%,white 40%);
+}
+#c-5
+{
+	background-image: linear-gradient(to right,lightgreen 95%,white 5%);
+}
+#python-6
+{
+	background-image: linear-gradient(to right,gray 80%,white 20%);
+}
+#cadd-7
+{
+	background-image: linear-gradient(to right,orange 60%,white 40%);
+}
+#mysql
+{
+	background-image: linear-gradient(to right,black 70%,white 30%);
+}
+span
+{
+	padding-left: 75%;
+	color: black;
+}
+#javascript-3 span
+{
+	padding-left: 65%;
+	color: black;
+}
+#python-6 span,#mysql span
+{
+	padding-left: 73%;
+}
+@media screen and (max-width:900px)
+{
+	span
+	{
+		padding-left: 65%;
+	}
+	#javascript-3 span
+	{
+		padding-left: 50%;
+	}
+	#python-6 span,#mysql span
+	{
+		padding-left: 56%;
+	}
+	#c-5 span
+	{
+		padding-left: 78%;
+	}
+	#html-1 span
+	{
+		padding-left: 60%;
+	}
+}
